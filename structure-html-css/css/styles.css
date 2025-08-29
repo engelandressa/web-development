@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('../img/tomate.jpg');
+    background-color: antiquewhite;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+nav, header {
+    padding-top: 1%;
+    text-align: center;
+    margin-bottom: 1%;
+    color: antiquewhite;
+
+}
+
+nav, header, main {
+    padding-top: 1%;
+    margin-bottom: 2%;
+
+}
+
+nav, header, main, footer {
+width: 100%;
+float: left;
+
+}
+
+nav {
+    background-color: indianred;
+    border-bottom: 2px solid rgb(48, 23, 23);
+    padding-bottom: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+
+}
+
+header {
+    background-color: indianred;
+    height: 40px;
+
+
+}
+
+main {
+    background-color: rgba(250, 235, 215, 0.8);
+
+
+}
+
+
+footer {
+    background-color: indianred;
+
+}
+/*oi*/
+main .caixa {
+    float: left;
+    width: 45%;
+    padding: 2%;
+}
+
+#esquerda {
+    border-right: 1px dashed black;
+}
+
+main .lista {
+    padding: 2%;
+    
+}
+
+#conteudo {
+    float: left;
+    width: 94%;
+    padding: 3%;
+
+}
+
+.image {
+    width: 50%;
+    padding: 2px;
+}
