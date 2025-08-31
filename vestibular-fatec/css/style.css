@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #fff;
+}
+
+nav,
+header,
+main,
+footer {
+    width: 100%;
+    float: left;
+
+}
+
+nav {
+    height: 7rem;
+    text-transform: uppercase;
+
+}
+
+header {
+    background-color: #a63525;
+    padding: 0rem;
+    text-transform: uppercase;
+    text-align: left;
+    align-items: center;
+    height: 18rem;
+    width: 100%;
+    background-image: url('../img/vestibular-alunos-26.jpg');
+    background-repeat: no-repeat;
+    background-size: 34%;
+    background-position: 20rem;
+}
+
+main {
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer {
+    background-color: hsl(75, 6%, 87%);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 2%;
+
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 2%;
+    color: #a63525;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 2%;
+}
+
+h4 {
+    line-height: 1.5rem;
+}
+
+ul {
+    margin-left: 1.5rem;
+}
+
+ul li {
+    padding: 0.2rem;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #a63525;
+}
+
+main .container {
+    width: 75%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.caixanav {
+    float: left;
+    width: auto;
+    padding: 3rem;
+    text-align: left;
+}
+
+.caixa {
+    float: left;
+    width: 18rem;
+    padding: 3rem;
+    text-align: left;
+}
+
+main .caixa {
+    float: left;
+    width: 33%;
+    padding: 3rem;
+    text-align: left;
+}
+
+.minicaixa {
+    float: left;
+    width: 20%;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.imgcartaoappbank {
+    border-radius: 2rem;
+}
+
+.icon {
+    width: 4rem;
+    border-radius: 0.5rem;
+    background-color: #EF804D;
+    padding: 1rem;
+}
+
+.botaonav {
+    background-color: #a63525;
+    color: #fff;
+    width: 15rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.botao {
+    background-color: #7B1F10;
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.titulo {
+    color: white;
+}
